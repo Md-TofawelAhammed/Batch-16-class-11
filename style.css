@@ -23,11 +23,39 @@
 
 .project-item{
     float: left;
-    height: 200px;
+    height: 300px;
     background-color: blueviolet;
-    width: 24.35%;
+    width: 32%;
     border: 1px solid red;
     margin-left: 10px;
     margin-bottom: 10px;
+    /* background-image: url(Images/project.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: green;
 
 }
+ .project-content {
+    background-color: aqua;
+
+ }
+
+ .footer{
+    margin-top: 10px;
+    height: 150px;
+    background-color: black;
+    color: white;
+ }
+
+ .footer-item{
+    float: left;
+    width: 30%;
+ }
+
+ .link{
+    text-decoration: none;
+    display: block;
+    color: blueviolet;
+ }
